@@ -1,0 +1,231 @@
+.row{
+    margin-top: 50px;
+}
+.col img{
+    margin-left: 30px;
+}
+.card{
+    width: 120px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 251, 0, 0.145);
+    
+}
+.card:hover{
+
+    box-shadow: 0px 0px 50px #ffe604;
+}
+.cardinfo{
+    display: inline-block;
+    width: 500px;
+    display: none;
+
+}
+tr,td,th{
+    padding: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.big-img{
+    display: block;
+    overflow: hidden;
+}
+.small{
+    width: 40px;
+    display: inline-block;
+    border: 1px solid;
+    height:20px ;
+    margin:17px;
+    overflow: hidden;
+    margin-left: 30px;
+
+    
+}
+.imgg{
+    display: block;
+    margin-left: 100px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav .a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+button{
+    background-color: #333;
+    border-radius: 100px;
+}
+
+.topnav .a:hover {
+    background-color: rgb(251, 226, 0);
+    color: black;
+}
+
+.topnav .a.active {
+    background-color: #9b8b0d;
+    color: white;
+}
+.imgdiv{
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+}
+.imgg1:hover{
+    animation: wwidth 1s infinite alternate;
+  /* width: 150px; */
+}
+.imgg2:hover {
+animation: wwidth 1s infinite alternate;  
+  /* width: 150px; */
+}
+.imgg3:hover {
+    animation: wwidth 1s infinite alternate;
+    /* width: 150px; */
+}
+.imgg4:hover {
+animation: wwidth 1s infinite alternate;
+    /* width: 150px;
+    transform: rotateZ(50); */
+}
+.imgg1{
+    object-fit: cover;
+
+}
+.imgg{
+    margin-left: -30px;
+}
+.ani{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffe604;
+    display:block;
+    position: relative;
+    
+    animation: ani 5s  alternate ;
+}
+@keyframes wwidth{
+    from{
+      width: 50px;
+    }
+    to{
+        width: 250px;
+    }
+}
+@keyframes ani {
+    from {
+        width: 50px;
+    }
+
+    to {
+        width: 250px;
+    }
+}
+.coli{
+    /* border: 1px solid white; */
+    height: 500px;
+
+}
+.bag1{
+    background-image: url("pexels-gentcreate-14188382.jpg");
+    width: 60px;
+    height: 500px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 20px;
+filter: blur(10px);
+}
+.bag2 {
+    background-image: url("pexels-gentcreate-13706809.jpg");
+    width: 60px;
+        height: 500px;
+display: inline-block;
+background-size: cover;
+border-radius: 20px;
+filter: blur(10px);
+}
+.bag3 {
+    background-image: url("pexels-avinash-kumar-16004744.jpg");
+    width: 60px;
+        height: 500px;
+display: inline-block;
+background-size: cover;
+border-radius: 20px;
+filter: blur(10px);
+}
+.bag4 {
+    background-image: url("pexels-gentcreate-14188404.jpg");
+    width: 60px;
+        height: 500px;
+display: inline-block;
+background-size: cover;
+border-radius: 20px;
+
+}
+.open{
+    animation: anim 1s 1;
+    width: 200px;
+    filter: blur(0px);
+}
+.close{
+    animation: animm 1s 1;
+    width: 60px;
+    filter: blur(5px);
+    
+}
+@keyframes anim{
+    from{
+       width: 60px;
+       filter: blur(5px);
+    }
+    to{
+    width: 200px;
+    filter: blur(0px);
+    }
+}
+@keyframes animm {
+    from {
+        width: 200px;
+        filter: blur(0px);
+    }
+
+        to {
+        width: 60px;
+        filter: blur(5px);
+    }
+}
+/* .icon {
+    display: inline-block;
+   
+    
+    /* box-shadow: inset 0px 0px 15px #ffe604; 
+} */
+.icon{
+margin-top: 30px;
+}
+.icon:hover{
+    
+    animation: icon 1s ;
+    box-shadow: 5px 0px 28px rgb(255, 68, 0), 0px 5px 28px rgb(255, 222, 9),inset 0px 0px 5px #ffe6048b;
+}
+@keyframes icon{
+    from{
+     box-shadow: 0px 0px black;
+    }
+    to{
+    box-shadow: 5px 0px 28px rgb(255, 68, 0), 0px 5px 28px rgb(255, 222, 9), inset 0px 0px 5px #ffe6048b;
+    }
+}
